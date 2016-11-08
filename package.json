@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "jspm build moment moment.js && jspm build index.js - moment",
+    "build": "jspm build index.js --format amd",
     "serve": "http-server ."
   },
   "author": "",
